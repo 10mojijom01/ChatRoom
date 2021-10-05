@@ -12,6 +12,8 @@
     height: 100vh;
     grid-template-rows: max-content max-content auto;
     overflow: hidden;
+    padding:  0;
+
   }
   
   div.App div.side-bar div.friend-list{

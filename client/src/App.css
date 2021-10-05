@@ -1,8 +1,19 @@
 body{
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  
 }
 *{
   outline: none;
+}
+
+div.App{
+  display: flex;
+}
+div.App div.side-bar{
+  width: 30%;
+}
+div.main-section{
+ 
+  width: 70%;
 }
