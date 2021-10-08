@@ -13,7 +13,7 @@
     grid-template-rows: max-content max-content auto;
     overflow: hidden;
     padding:  0;
-
+    border-right: 1px solid rgb(202, 202, 202);
   }
   
   div.App div.side-bar div.friend-list{
