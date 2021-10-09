@@ -251,7 +251,7 @@ div.main-section div.chat__footer form input{
     height: 30px;
     font-size: 16px;
     box-shadow: inset 0px 0px 0px;
-    transition: 0.25s ease-in-out;
+    transition: 0.25s;
 
 }
 
