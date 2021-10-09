@@ -3,6 +3,10 @@ div.main-section{
     display: grid;
     grid-template-rows: 70px auto 70px;
     height: 100vh;
+    width: 70%;
+    background: url(./images/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png);
+    background-repeat: repeat;
+    background-position: center;
 }
 
 div.main-section div.setting{
@@ -23,6 +27,8 @@ div.main-section div.setting div.text{
 
 div.main-section div.setting div.text h6{
     margin: 0;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 div.main-section div.setting div.text p{
@@ -70,9 +76,15 @@ div.main-section div.chat_panel div.display div.chatbubble img.profile_image{
 
 div.main-section div.chat_panel div.display div.chatbubble div.text{
     padding: 10px 15px;
-    background-color: #eee;
+    background-color: white;
+}
 
-
+div.main-section div.chat_panel div.display div.chatbubble div.text span.timestamp{
+    margin-top: 15px;
+    display: block;
+    color: gray;
+    text-align: left;
+    
 }
 
 div.main-section div.chat_panel div.display div.bubble_left{
@@ -83,10 +95,15 @@ div.main-section div.chat_panel div.display div.bubble_left div.text{
     border-radius:0px 10px 10px 10px;
 }
 
+div.main-section div.chat_panel div.display div.bubble_left div.text span.timestamp{
+    text-align: right;
+}
+
+
 div.main-section div.chat_panel div.display div.chatbubble div.shape{
     width: 30px;
     height: 40px;
-    background-color: #eee;
+    background-color: white;
 }
 
 div.main-section div.chat_panel div.display div.bubble_left div.shape{
@@ -102,16 +119,16 @@ div.main-section div.chat_panel div.display div.bubble_right{
 
 div.main-section div.chat_panel div.display div.bubble_right div.text{
     border-radius:10px 0px 10px 10px;
-    background-color: cornflowerblue;
-    color: white;
+    background-color: #dcf8c6;
+    color: black;
 }
 
 div.main-section div.chat_panel div.display div.bubble_right div.shape{
     clip-path: polygon(0 0, 100% 0, 0 100%);
     transform: translateX(-5px);
-    background-color: cornflowerblue;
+    background-color: #dcf8c6;
 }
-
+/* 
 div.main-section div.input_box{
     background-color: #eee;
     padding-left: 10px;
@@ -127,7 +144,7 @@ div.main-section div.input_box input{
     padding-right: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 div.main-section div.input_box input::placeholder{
@@ -144,7 +161,7 @@ div.main-section div.input_box button svg{
 div.main-section div.sticker_box{
     position: absolute;
     height: 00%;
-    width: 70%;
+    width: 347px;
     border-radius: 25px 25px 0px 0px;
     transform: translateY(-70px);
     bottom: 0;
@@ -154,7 +171,7 @@ div.main-section div.sticker_box{
 }
 
 div.main-section div.sticker_box.shown {
-    height: 40%;
+    height: 500px;
 }
 
 
@@ -178,4 +195,86 @@ div.main-section div.sticker_box div.head svg{
 div.main-section div.sticker_box div.head svg.on{
     fill: black;
     border-bottom: 4px solid cyan;
+}
+
+div.main-section div.sticker_box div.head div.sticker_header{
+
+}
+
+div.main-section div.sticker_box div.head div.sticker_header button.sticker_header_button{
+    padding: 0;
+    border: none;
+
+}
+
+div.main-section div.sticker_box{
+    overflow: hidden;
+
+}
+
+div.main-section div.sticker_box div.sticker_group_list{
+    width: 1750px;
+    height: 430px;
+    overflow: hidden;
+} 
+
+div.main-section div.sticker_box aside.emoji-picker-react{
+    width: 350px !important;
+    height: 500px !important;
+    background-color: #eee;
+}
+
+div.main-section div.sticker_box aside.emoji-picker-react ::before{
+    background-color: #eee;
+} 
+*/
+
+div.main-section div.chat__footer{
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+}
+
+div.main-section div.chat__footer form{
+   display: flex;
+    flex: 1;
+    
+}
+
+div.main-section div.chat__footer form input{
+    flex: 1;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 15px;
+    height: 30px;
+    font-size: 16px;
+    box-shadow: inset 0px 0px 0px;
+    transition: 0.25s ease-in-out;
+
+}
+
+div.main-section div.chat__footer form input:focus{
+    box-shadow: inset 0px 0px 5px;
+}
+
+div.main-section div.chat__footer form input::placeholder{
+    text-align: right;
+}
+
+div.main-section div.chat__footer form button{
+    display: none;
+}
+
+div.main-section div.chat__footer i{
+    padding: 15px;
+    color: gray;
+    width: 40px;
+    height: 40px;
+}
+
+div.main-section div.chat__footer i svg{
+    width: 40px;
+    height:40px;
 }

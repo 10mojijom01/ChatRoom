@@ -1,19 +1,3 @@
-// import React from 'react'
-
-// function Curent_contact() {
-//     return (
-//         <div className="setting">
-//           <span className='time small' last_seen='online'>آنلاین<span className="circle"></span></span>
-//           <div className="text">
-//               <h6>نام مخاطب</h6>
-//               <p>توضیحات</p>
-//             </div>
-//           <ImageComponent className='profile-image' url={myimage} alt='profile image' />
-//         </div>
-//     )
-// }
-
-// export default Curent_contact
 import React, { Component } from 'react';
 import ImageComponent from './ImageComponent';  
 class Curent_contact extends Component {
